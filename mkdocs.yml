@@ -1,0 +1,13 @@
+site_name: My Docs
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - num_1: 1.md
+      - num_2: 2.md
+  - About:
+      - xx: 3.md
+      - xx: 4.md
