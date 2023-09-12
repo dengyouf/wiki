@@ -1,13 +1,36 @@
-site_name: My Docs
+site_name: '学习笔记'
+site_url: 'https://dengyouf.github.io/wiki/'
+site_author: "deng you"
 
+repo_name: 'dengyouf/wiki'
+repo_url: 'https://github.com/dengyouf/wiki'
 theme:
   name: material
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
 nav:
   - Home: index.md
-  - User Guide:
-      - num_1: 1.md
-      - num_2: 2.md
-  - About:
-      - xx: 3.md
-      - xx: 4.md
+  - Jenkins:
+      - Jenkins安装: 'jenkins/01-install.md'
+#      - num_2: 2.md
+#  - About:
+#      - xx: 3.md
+#      - xx: 4.md
